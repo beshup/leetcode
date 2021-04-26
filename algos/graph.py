@@ -17,7 +17,7 @@ def dfs_list(graph, target, node, seen):
         return True    
     seen[node] = True 
     connections = graph[node]
-    print(connections)
+
     for c in connections:
         if c not in seen:
             res = dfs_list(graph, target, c, seen)
