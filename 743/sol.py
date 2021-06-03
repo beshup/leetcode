@@ -55,6 +55,7 @@ class Solution(object):
                     made_change = True
 
             if made_change == False:
+                
                 break 
 
         print(time_to)
